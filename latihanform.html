@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table align="center" width="30%">
+            <tr>
+                <td>User Name</td>
+                <td><input type="text" name="txtuser" id="" placeholder="masukan username anda"></td>
+            </tr>
+            <tr>
+                <td>Pasword</td>
+                <td><input type="password" name="txtpass" id=""></td>
+            </tr>
+            <tr>
+                <td>jenis kelamin</td>
+                <td> <input type="radio" name="jkel" id="">pria
+                     <input type="radio" name="jkel" id="">wanita</td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td><select name="txtjur" id="">
+                    <optgroup label="FTD"><</optgroup> <!--combobox-->
+                    <option value="teknik informatika">Teknik Informatika</option>
+                    <option value="DKV">Desain Komunikasi Visual</option>
+                    <option value="TK">Teknik Komputer</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Usia</td>
+                <td><input type="text" name="txtusia" id=""></td>
+            </tr>
+            <tr>
+                <td>alamat</td>
+                <td><input type="text" name="txtuser" id="" placeholder=""></td>
+            </tr>
+            <tr>
+                <!-- Baris Jurusan -->
+        <tr>
+            <td><label for="jurusan">Jurusan</label></td>
+            <td>
+                <select id="jurusan" name="jurusan">
+                    <option value="teknik_informatika">Teknik Informatika</option>
+                    <option value="sistem_informasi">Sistem Informasi</option>
+                    <option value="teknik_komputer">Teknik Komputer</option>
+                </select>
+            </td>
+        </tr>
+        
+        <!-- Baris Usia -->
+        <tr>
+            <td><label for="usia">Usia</label></td>
+            <td>
+                <input type="number" id="usia" name="usia" min="0">
+            </td>
+        </tr>
+        
+        <!-- Baris Tanggal Lahir -->
+        <tr>
+            <td><label for="tanggal_lahir">Tanggal Lahir</label></td>
+            <td>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+            </td>
+        </tr>
+        
+        <!-- Baris Tombol Aksi -->
+        <tr>
+                <td></td>
+                <td><button type="submit" name="cmdkirim">Kirim</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
